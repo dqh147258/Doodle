@@ -1,3 +1,29 @@
 <resources>
     <string name="app_name">Doodle</string>
+
+    <string name="activity_doodle_save">Save</string>
+    <string name="activity_doodle_clear">Clear</string>
+    <string name="activity_doodle_delete">Delete</string>
+    <string name="menu_item_paint_color">Paint Color</string>
+    <string name="menu_item_cell_color">Cell Color</string>
+    <string name="menu_item_background_color">Background Color</string>
+    <string name="menu_item_paint_width">Paint Width</string>
+    <string name="color_red">Red</string>
+    <string name="color_yellow">Yellow</string>
+    <string name="color_blue">Blue</string>
+    <string name="color_green">Green</string>
+    <string name="color_orange">Orange</string>
+    <string name="color_purple">Purple</string>
+    <string name="color_pink">Pink</string>
+    <string name="color_white">White</string>
+    <string name="color_black">Black</string>
+    <string name="color_transparency">Transparency</string>
+
+    <string name="menu_item_paint_width_5">5</string>
+    <string name="menu_item_paint_width_8">8</string>
+    <string name="menu_item_paint_width_10">10</string>
+    <string name="menu_item_paint_width_15">15</string>
+    <string name="menu_item_paint_width_20">20</string>
+    <string name="menu_item_paint_width_30">30</string>
+    <string name="menu_item_paint_width_12">12</string>
 </resources>

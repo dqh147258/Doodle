@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_item_save"
+        android:icon="@android:drawable/ic_menu_save"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/activity_doodle_save" />
+    <item
+        android:id="@+id/menu_item_backspace"
+        android:icon="@drawable/ic_backspace_white"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/activity_doodle_delete" />
+    <item
+        android:id="@+id/menu_item_delete"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/activity_doodle_clear" />
+    <item
+        android:id="@+id/menu_item_paint_color"
+        android:title="@string/menu_item_paint_color">
+        <menu>
+            <item
+                android:id="@+id/menu_item_paint_color_red"
+                android:title="@string/color_red" />
+            <item
+                android:id="@+id/menu_item_paint_color_yellow"
+                android:title="@string/color_yellow" />
+            <item
+                android:id="@+id/menu_item_paint_color_blue"
+                android:title="@string/color_blue" />
+            <item
+                android:id="@+id/menu_item_paint_color_green"
+                android:title="@string/color_green" />
+            <item
+                android:id="@+id/menu_item_paint_color_orange"
+                android:title="@string/color_orange" />
+            <item
+                android:id="@+id/menu_item_paint_color_purple"
+                android:title="@string/color_purple" />
+            <item
+                android:id="@+id/menu_item_paint_color_pink"
+                android:title="@string/color_pink" />
+            <item
+                android:id="@+id/menu_item_paint_color_white"
+                android:title="@string/color_white" />
+            <item
+                android:id="@+id/menu_item_paint_color_black"
+                android:title="@string/color_black" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/menu_item_cell_color"
+        android:title="@string/menu_item_cell_color">
+        <menu>
+            <item
+                android:id="@+id/menu_item_cell_color_red"
+                android:title="@string/color_red" />
+            <item
+                android:id="@+id/menu_item_cell_color_yellow"
+                android:title="@string/color_yellow" />
+            <item
+                android:id="@+id/menu_item_cell_color_blue"
+                android:title="@string/color_blue" />
+            <item
+                android:id="@+id/menu_item_cell_color_green"
+                android:title="@string/color_green" />
+            <item
+                android:id="@+id/menu_item_cell_color_orange"
+                android:title="@string/color_orange" />
+            <item
+                android:id="@+id/menu_item_cell_color_purple"
+                android:title="@string/color_purple" />
+            <item
+                android:id="@+id/menu_item_cell_color_pink"
+                android:title="@string/color_pink" />
+            <item
+                android:id="@+id/menu_item_cell_color_white"
+                android:title="@string/color_white" />
+            <item
+                android:id="@+id/menu_item_cell_color_black"
+                android:title="@string/color_black" />
+            <item
+                android:id="@+id/menu_item_cell_color_transparency"
+                android:title="@string/color_transparency" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/menu_item_background_color"
+        android:title="@string/menu_item_background_color">
+        <menu>
+            <item
+                android:id="@+id/menu_item_background_color_red"
+                android:title="@string/color_red" />
+            <item
+                android:id="@+id/menu_item_background_color_yellow"
+                android:title="@string/color_yellow" />
+            <item
+                android:id="@+id/menu_item_background_color_blue"
+                android:title="@string/color_blue" />
+            <item
+                android:id="@+id/menu_item_background_color_green"
+                android:title="@string/color_green" />
+            <item
+                android:id="@+id/menu_item_background_color_orange"
+                android:title="@string/color_orange" />
+            <item
+                android:id="@+id/menu_item_background_color_purple"
+                android:title="@string/color_purple" />
+            <item
+                android:id="@+id/menu_item_background_color_pink"
+                android:title="@string/color_pink" />
+            <item
+                android:id="@+id/menu_item_background_color_white"
+                android:title="@string/color_white" />
+            <item
+                android:id="@+id/menu_item_background_color_black"
+                android:title="@string/color_black" />
+            <item
+                android:id="@+id/menu_item_background_color_transparency"
+                android:title="@string/color_transparency" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/menu_item_paint_width"
+        android:title="@string/menu_item_paint_width">
+        <menu>
+            <item
+                android:id="@+id/menu_item_paint_width_5"
+                android:title="@string/menu_item_paint_width_5" />
+            <item
+                android:id="@+id/menu_item_paint_width_8"
+                android:title="@string/menu_item_paint_width_8" />
+            <item
+                android:id="@+id/menu_item_paint_width_10"
+                android:title="@string/menu_item_paint_width_10" />
+            <item
+                android:id="@+id/menu_item_paint_width_12"
+                android:title="@string/menu_item_paint_width_12" />
+            <item
+                android:id="@+id/menu_item_paint_width_15"
+                android:title="@string/menu_item_paint_width_15" />
+            <item
+                android:id="@+id/menu_item_paint_width_20"
+                android:title="@string/menu_item_paint_width_20" />
+            <item
+                android:id="@+id/menu_item_paint_width_30"
+                android:title="@string/menu_item_paint_width_30" />
+        </menu>
+    </item>
+</menu>
