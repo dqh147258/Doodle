@@ -71,7 +71,7 @@ doodleView.setCursorWidth(6);//设置光标粗细
 
 - 储存恢复
 
-![save_and_restore](http://resource-1255703580.cossh.myqcloud.com/Doodle/save_and_restore.gif)
+  ![save_and_restore](http://resource-1255703580.cossh.myqcloud.com/Doodle/save_and_restore.gif)
 
 ## 源码及jar包
 [DoodleView](https://github.com/dqh147258/Doodle)
