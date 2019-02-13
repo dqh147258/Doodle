@@ -1,34 +1,28 @@
-#  一个涂鸦笔记本的自定义View第三方库
+# DoodleView
 
-## 目录
+[ ![Download](https://api.bintray.com/packages/dqh147258/android/DoodleView/images/download.svg?version=1.0.0) ](https://bintray.com/dqh147258/android/DoodleView/1.0.0/link)
 
-[TOC]
+
+一个涂鸦笔记本的自定义View第三方库
 
 ## 简介
 
 还记得曾经QQ的涂鸦功能吗？现在这个第三方库也支持涂鸦，而且功能更加强大，支持切换画笔颜色，切换背景色，字体背景色，画笔粗细以及用光标删除,插入。来看看效果吧。
 ![introduction](http://resource-1255703580.cossh.myqcloud.com/Doodle/introduction.gif)
 ## 集成
-- 以源码组件形式集成
+- Gradle依赖
 
-```shell
-dependencies {
- 	compile project(':doodleview')
-}
+需要添加jcenter仓库
+
 ```
-
-- 以第三方库形式集成
-
-```shell
 dependencies {
-  	compile fileTree(include: ['*.jar'], dir: 'libs')
-	compile files('libs/com.yxf.doodleview-1.0.jar')
+ 	compile 'com.yxf:doodleview:1.0.0'
 }
 ```
 
 ## 初始化
 
-```java 
+```
 DoodleView doodleView;
 doodleView = (DoodleView) findViewById(R.id.doodle_view);
 doodleView.setItemSize(80, 96);//这条必须有,设置文字格子大小
@@ -72,6 +66,3 @@ doodleView.setCursorWidth(6);//设置光标粗细
 - 储存恢复
 
   ![save_and_restore](http://resource-1255703580.cossh.myqcloud.com/Doodle/save_and_restore.gif)
-
-## 源码及jar包
-[DoodleView](https://github.com/dqh147258/Doodle)
